@@ -39,8 +39,9 @@ logging:
 
 management:
   endpoints:
-    health:
-      show-details: always
     web:
       exposure:
         include: "*"
+  endpoint:
+    health:
+      show-details: always
